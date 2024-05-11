@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "gb-link-socket")(type "KiCad")(uri "${KIPRJMOD}/Library/kicad-lib-gb-link-socket/gb-link-socket.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library/kicad-lib-stx-3000/STX3000.pretty")(options "")(descr ""))
+  (lib (name "Arduino")(type "KiCad")(uri "${KIPRJMOD}/Library/kicad-lib-arduino-main/Arduino.pretty")(options "")(descr ""))
+)

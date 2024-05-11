@@ -1,0 +1,154 @@
+(footprint "gbc-link-socket"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "GB1"
+		(at 0 4.125 0)
+		(layer "F.SilkS")
+		(uuid "e263d7e4-6c6e-4230-bfa1-a6a9ac62b977")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "GB_LINK"
+		(at 0 -7.375 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f90aeab-4c7c-4926-90ea-4d752c8d4316")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "gb-link-socket:gb-link-socket"
+		(at 0 0.125 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52d8ff77-7b8b-436d-86d8-2ea85f2432ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0.125 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea734279-36c6-495d-80af-da060c1216f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0.125 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e37756f1-e58b-4e2c-a77f-ff35220b442b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" connect custom
+		(at -1.75 0.125)
+		(size 1.5 4.75)
+		(layers "B.Cu" "B.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.75 -2.125) (xy -0.75 -2.375) (xy -1.75 -3.375) (xy -1.75 -5.875) (xy 0.75 -5.875) (xy 0.75 -2.125)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "b9a0905f-0d9d-4bc4-b03f-f5784413d46b")
+	)
+	(pad "2" connect custom
+		(at -1.75 0.125)
+		(size 1.5 4.75)
+		(layers "F.Cu" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.75 -2.125) (xy -0.75 -2.375) (xy -1.75 -3.375) (xy -1.75 -5.875) (xy 0.75 -5.875) (xy 0.75 -2.125)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "9aad3100-275a-4832-a154-e664a894330c")
+	)
+	(pad "3" connect rect
+		(at 0 -1.625)
+		(size 1.5 8.25)
+		(layers "B.Cu" "B.Mask")
+		(uuid "96b97652-389a-412a-b3f3-4dc3ac79ea6f")
+	)
+	(pad "4" connect rect
+		(at 0 -1.625)
+		(size 1.5 8.25)
+		(layers "F.Cu" "F.Mask")
+		(uuid "88266303-35cf-4cc7-ba08-47fbb408025b")
+	)
+	(pad "5" connect custom
+		(at 1.75 0.125)
+		(size 1.5 4.75)
+		(layers "B.Cu" "B.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.75 -2.125) (xy 0.75 -2.375) (xy 1.75 -3.375) (xy 1.75 -5.875) (xy -0.75 -5.875) (xy -0.75 -2.125)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "f5c5d648-9784-4110-bc94-80ed40244d0c")
+	)
+	(pad "6" connect custom
+		(at 1.75 0.125)
+		(size 1.5 4.75)
+		(layers "F.Cu" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.75 -2.125) (xy 0.75 -2.375) (xy 1.75 -3.375) (xy 1.75 -5.875) (xy -0.75 -5.875) (xy -0.75 -2.125)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "d6ac6c03-8b1a-49fd-a58e-b5013ae03b77")
+	)
+)

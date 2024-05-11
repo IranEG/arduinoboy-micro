@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "gb-link-socket")(type "Legacy")(uri "${KIPRJMOD}/Library/kicad-lib-gb-link-socket/gb-link-socket.lib")(options "")(descr ""))
+  (lib (name "Arduino")(type "Legacy")(uri "${KIPRJMOD}/Library/kicad-lib-arduino-main/Arduino.lib")(options "")(descr ""))
+  (lib (name "TLP-2361")(type "KiCad")(uri "${KIPRJMOD}/Library/kicad-lib-tlp-2361/TLP-2361.kicad_sym")(options "")(descr ""))
+)
